@@ -17,6 +17,7 @@ public class SuperMarketManagementSystem {
         LoginForm login = new LoginForm();
         login.setVisible(true);
         login.setLocationRelativeTo(null);
+        DBConnection.connection();
     }
     
 }
